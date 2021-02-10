@@ -2,7 +2,7 @@
 
 # API server and port
 URL="https://localhost"
-PORT="5001"
+PORT="80"
 
 
 ### DEFINING VARIABLES FOR ENDPOINTS
