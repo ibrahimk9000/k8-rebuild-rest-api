@@ -18,7 +18,7 @@ targetPresignedURL1="https://glasswalltask1.s3.amazonaws.com/test_public?AWSAcce
 ## Endpoint #2
 # This variable is associsted with the /api/rebuild/file endpoint
 # The path to the file to be scanned by the engine
-FILE_PATH="/home/shaban/Desktop/file.pdf"
+FILE_PATH="/home/k8-rebuild-rest-api/sampledata/file.pdf"
 
 
 ## Endpoint #3
@@ -30,7 +30,7 @@ BASE64_STRING="JVBERi0xLjUKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlc
 ## Endpoint #4
 # This variable is associsted with the /api/rebuild/zipfile endpoint
 # The path to the zipfile to be scanned by the engine
-ZIPFILE_PATH="/home/shaban/Desktop/file.zip"
+ZIPFILE_PATH="/home/k8-rebuild-rest-api/sampledata/file.zip"
 
 
 ## Endpoint #5
@@ -50,7 +50,7 @@ targetPresignedURL6='https://glasswalltask1.s3.amazonaws.com/test_public?AWSAcce
 ## Endpoint #7
 # These variables are associsted with the /api/rebuild/ziptos3 endpoint
 # The path to the zipfile to be scanned by the engine
-ZIPFILE_PATH="/home/shaban/Desktop/file.zip"
+ZIPFILE_PATH="/home/k8-rebuild-rest-api/sampledata/file.zip"
 # The S3 targetpresignedURL which the protected file will be uploaded to
 targetPresignedURL7='https://glasswalltask1.s3.amazonaws.com/test_public?AWSAccessKeyId=AKIAWYWOGVNRJV2VKF6Y&Signature=sYPPidBgzr7XbZqfa6VUN0xNEH0%3D&Expires=1611961585'
 
